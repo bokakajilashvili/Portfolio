@@ -1,0 +1,278 @@
+/* General styles */
+
+.section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+.section_content{
+    width: 1200px;
+    display: flex;
+    align-items: flex-start;
+    
+}
+/* Typography */
+html{
+    font-size: 18px;
+    color: #7E7E7E;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "mulish", sans-serif;
+    color: #1C2752;
+}
+/*Header */
+.header-line{
+    background: #f2f2f2;
+    color: #1C2752;
+    padding: 19px 0;
+}
+
+.header-line_socials{
+    display: flex;
+    align-items: center;
+    gap: 17px;
+
+}
+.header-line_socials svg{
+    width: 18px;
+    height: 18px;
+}
+
+.header-line .section_content{
+    justify-content: space-between;
+}
+.header-logo-line .section_content{
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 0;
+
+}
+.header-logo-line_img{
+    width: 64px;
+    height: 67px;
+
+}
+.header-logo-line_contacts{
+    display: flex;
+    gap: 68px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+.logo > span{
+    font-size: 35px;
+    line-height: 44px;
+    color: black;
+}
+/* nav-section*/
+.nav-section{
+    position: relative;
+    top: 66px;
+    margin-top: -66px;
+}
+
+
+/* hero */
+
+.hero{
+   background-image: url(../images/gym.jpg);
+   height: 924px;
+   background-position: center;
+   background-repeat: no-repeat;
+   
+   
+}
+.hero .section_content{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hero_heading{
+    font-size: 60px;
+    font-weight: 800;
+    color: rgb(23, 70, 109);
+    width: 50%;
+}
+.hero_cta{
+    background: #1C2752;
+    color: white;
+    padding: 20px 33px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+/* nav */
+.nav{
+    background: #4e7baf;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px;
+}
+
+.nav_menu{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    margin: 0;
+    padding: 20px 0;
+}
+.nav_menu-item a{
+    color: #2F2F2F;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'inter', sans-serif;
+    text-decoration: none;
+
+}
+.nav_haq{
+    padding: 20px 22px;
+    color: white;
+    text-decoration: none;
+    background-color: #1C2752;
+}
+
+/* icon label */
+.icon-label{
+    background-color: rgba(96, 92, 92, 0.295);
+    color: white;
+    padding: 12px 16px 12px 52px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}    
+
+
+
+/* About-Us */
+
+.about-us{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+
+}
+.about-us_child{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.welcome_message-info {
+    width: 600px;
+    margin: 23.92px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    font-size: 18px;
+    
+}
+
+.welcome_message-info_part-two{
+    display: flex;
+    flex-direction: row;
+
+    
+
+
+}
+.our-experience_parent{
+    width: 175px;
+    height: 197.16px;
+    background-color: #F4F4F4;
+    display: flex;
+
+}
+.our-experience{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    gap: 11px;
+    color:black;
+    font-size: 20px;
+    width: 107px;
+    height: 127,16px;
+    font-family: "mulish", sans-serif;
+    
+
+}
+.fifteen{
+    font-size: 40px;
+    color: #1C2752;
+    text-align: center;
+
+    
+}
+.yoe{
+    text-align: center;
+}
+.ul{
+    width: 319px;
+    height: 136px;
+    font-family: "inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+   
+
+}
+
+/* Main Services */
+.main-services{
+    margin-top: 150px;
+    padding-top: 130px;
+    height: 750px;
+    background-color:#1C2752;
+    text-align: center;
+    
+}
+
+.main-services_head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.main-services_heading{
+    font-family: "mulish", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 56px;
+    color: white;
+
+}
+.main-services_heading-info{
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #ffffff;
+}
+.main-services_CRI{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
