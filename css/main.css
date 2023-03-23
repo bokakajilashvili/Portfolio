@@ -112,10 +112,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hero_heading {
-    font-size: 60px;
+    font-family: 'Mulish';
+    font-style: normal;
     font-weight: 800;
-    color: rgb(23, 70, 109);
+    font-size: 60px;
+    line-height: 75px;
     width: 50%;
+    color: #35ffc9;
 }
 
 .hero_cta {
@@ -196,6 +199,30 @@ h1, h2, h3, h4, h5, h6 {
     gap: 70px;
     font-size: 18px;
     
+}
+
+.welcome-message__heading{
+    font-family: 'mulish', sans-serif;
+    font-size: 45px;
+    line-height: 56px;
+}
+
+.welcome-message__mini-heading{
+    background-color: #F4F4F4;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    padding: 8px 16px;
+}
+
+.welcome-message__text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
 }
 
 .welcome_message-info_part-two {
@@ -315,10 +342,435 @@ h1, h2, h3, h4, h5, h6 {
 
 /* commercial */
 
+.commercial {
+    width: 1067px;
+    height: 391px;
+    display: flex;
+    gap: 60px;
+    
+}
 
- 
+.commercial__container {
+    
+    margin-top: -390px;
+
+}
+
+.commercial__wrapper {
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+    
+}
+
+.commercial__texts-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.commercial__mini-heading {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 15px;
+    background-color: #F4F4F4;
+    
+}
+
+.commercial__mini-heading__heading {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #1C2752;
+}
+
+.commercial__heading {
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 44px;
+    color: #1C2752;
+
+}
+
+.commercial__text {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #7E7E7E;
+}
+
+.commercial__CTA {
+    background: #1C2752;
+    color: rgb(101, 135, 192);
+    padding: 20px 40px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.commercial__image {
+    width: 445px;
+    height: 390px;
+}
+
+/* Our Services */
+
+.our-services__container {
+    height: 1330px;
+    background-color: #F4F4F4;
+    margin-top: -120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+.our-services__head {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.our-services__mini-heading {
+    padding: 10px 15px;
+    background-color: white;
+    font-family: 'inter',sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #1C2752;
+}
+
+.our-services__heading {
+    font-family: 'mulish', sans-serif;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 55px;
+    text-align: center;
+}
+
+.our-services__text {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.our-services__wrapper {
+    display: flex;
+    gap: 25;
+    
+    flex-wrap: wrap;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    height: 675px;
+    width: 1200px;
+   
+    
+    
+}
 
 
 
 
+.our-services__child {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #35ffc9;
+    width: 370px;
+    height: 320px;
+    align-items: flex-start;
+    
+   
+    
+}
 
+.our-services__child-logo {
+    width: 45px;
+    height: 45px;
+}
+
+.our-services__child-heading {
+    width: 242px;
+    height: 31px;
+    
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 31px;
+}
+
+.our-services__child-text {
+    width: 310px;
+    height: 66px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+
+}
+
+.our-services__child-cta {
+    
+    width: 94px;
+    height: 22px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+
+/* why choose us */
+
+.why-choose-us {
+    height: 920px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 70px;
+    
+}
+
+.why-choose-us__background-image {
+    background-image: url(../images/gym.jpg);
+    width: 845px;
+    height: 920px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.why-choose-us__blur-background {
+    width: 630px;
+    height: 690px;
+    background: rgba(62, 170, 180, 0.545);
+    border: 1px solid #000000;
+    backdrop-filter: blur(12.5px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.why-choose-us__column {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+}
+
+.why-choose-us__child {
+    padding: 15px 20px;
+    background-color: rgb(205, 189, 148);
+    color: #000000;
+    border: 1px solid rgb(205, 189, 148);
+}
+
+.why-choose-us__second-child {
+    padding: 15px 90px 15px 22px;
+    border: 1px solid #FFFFFF;
+    color: #000000;
+}
+
+.why-choose-us__content {
+    width: 643px;
+    height: 609px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 44px;
+
+}
+
+
+.why-choose-us__mini-heading {
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+
+    background: #F4F4F4;
+    padding: 8px 16px 7px;
+}
+
+.why-choose-us__heading {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 56px;
+
+}
+
+.why-choose-us__heading-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.why-choose-us__point-heading {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.why-choose-us__point-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+/* The Gallery */
+.the-gallery {
+    background: #1C2752;
+    height: 1134px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.the-gallery__content {
+    width: 1866px;
+    height: 796px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.the-gallery__head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.the-gallery__mini-heading {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #1C2752;
+    background-color: #F4F4F4;
+    padding: 8px 16px;
+}
+
+.the-gallery__heading {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 56px;
+
+    color: #FFFFFF;
+}
+
+.the-gallery__photos__wrapper {
+    display: flex;
+    gap: 30px;
+}
+
+.the-gallery__photos-content {
+    width: 300px;
+    height: 584px;
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+}
+
+
+.the-gallery__image {
+    width: 300px;
+    height: 450px;
+}
+
+.the-gallery__photo__heading {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 31px;
+}
+
+.the-gallery__photo__mini-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+/* Testimonial */
+
+
+
+
+.testimonial {
+    height: 900px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.testimonial__info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 550px;
+}
+
+.testimonial__content {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+.testimonial__content-photo {
+    border-radius: 50%;
+}
+
+
+
+
+.meet-us {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
